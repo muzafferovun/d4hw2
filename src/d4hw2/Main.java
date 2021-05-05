@@ -21,7 +21,7 @@ public class Main {
 		productManager.addProduct(products,"Tea",6,false);
 		productManager.addProduct(products,"Turkish Coffee",15,false);
 		productManager.listProducts(products);
-
+ 
 		CustomerProductPurcase[] customerProductPurcase=new CustomerProductPurcase[1000];
 		CustomerProductPurcaseManager productPurchaseManager=new CustomerProductPurcaseManager();
 		productPurchaseManager.createProducts(customerProductPurcase);
